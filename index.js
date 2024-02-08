@@ -118,7 +118,10 @@ const perguntas = [
         corretas.delete(item)
         if(estaCorreta) {
           corretas.add(item)
-          
+          alert('Boaaa, você acetou!')
+        }
+        else{
+          alert('Poxaaa, você errou. Está precisanso estudar mais heinn!')
         }
         
         mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas 
